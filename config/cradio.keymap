@@ -52,7 +52,7 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp ATSN   &kp LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp AMPS &kp STAR &kp SEMI &kp BKSP 
+		&kp ESC  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp AMPS &kp STAR &kp SEMI &kp BKSP 
 		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp NON_US_BSLH &kp LS(LBRC)  &kp LS(RBRC) &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBRC &kp LPRN &kp RPRN &kp RBRC  &to 3 
 					    &to 0  &sk LSHIFT  					&sk RALT &to 2 
