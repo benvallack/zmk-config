@@ -79,16 +79,16 @@
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &kp COMMA  &kp BKSP 
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
-          				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&sk RCTRL &to 2 
+          				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&sk RCTRL &to 1
 		>;
 		};
 
        		left_layer {
 		bindings = <
-		&kp NUM_1  &kp NUM_2    &kp NUM_3    &kp NUM_4    &kp NUM_5		&kp NUM_6 &kp NUM_7 &kp NUM_8 &kp NUM_9 &kp NUM_0 
-		&kp TAB    &kp LC(S)    &kp DQT      &kp PIPE2     &kp HASH 		&kp MINUS &kp EQL  &kp LBKT &kp RBKT  &kp DEL 
-		&kp ESC    &kp TILDE 	&kp NON_US_BSLH &kp NON_US_HASH  &kp TILDE2 	&kp MINUS &kp GRAVE &kp LBKT &kp RBKT  &kp DEL 
-					    &mo 1  &kp LGUI  					&kp RGUI &mo 2 
+		&kp ESC  &kp ATSN   &kp LS(N3) &kp DLLR    &kp PRCT		&kp CRRT &kp AMPS &kp KMLT &kp SCLN &kp BKSP 
+		&kp TAB    &kp KP_EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp NON_US_BSLH &kp LS(LBRC)  &kp LS(RBRC) &kp PIPE  &kp ENTER
+		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBRC &kp LPRN &kp RPRN &kp RBRC  &to 3 
+					    &to 0  &sk LSHIFT  					&kp RALT &to 2 
 		>;
 		};
 		
