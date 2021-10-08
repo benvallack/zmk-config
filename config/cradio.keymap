@@ -28,13 +28,22 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+	td: tapdance {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAPDANCE";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
     };
         keymap {
                 compatible = "zmk,keymap";
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &kp COMMA  &kp BKSP 
+		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA  &kp BKSP 
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
           				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&sk RCTRL &to 1
