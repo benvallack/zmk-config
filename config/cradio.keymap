@@ -103,7 +103,7 @@
 		
 		tri_layer {
 		bindings = <
-		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
+		&trans  &trans    &mmv MOVE_UP    &trans &kp NUM_5 			&trans &trans   &trans   &trans  &trans
 		&kp F1 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp F5  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &to 0 &trans  					&sk RALT &to 1 
