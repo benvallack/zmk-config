@@ -59,7 +59,7 @@
         
     };
 
-	behaviors {
+    behaviors {
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -75,9 +75,9 @@
                 
        		default_layer {
 		bindings = <
-		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &kp ,  &kp BKSP 
+		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &kp COMMA  &kp BKSP 
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &kp A &kp O
-		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &kp / &kp . &kp X
+		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
           				&mt (LCTL|LALT|LSHIFT) SPC &sk LSHIFT  				&sk RCTRL &to 2 
 		>;
 		};
