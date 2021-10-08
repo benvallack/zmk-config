@@ -85,10 +85,10 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp ATSN   &kp LS(N3) &kp DLLR    &kp PRCT		&kp CRRT &kp AMPS &kp KMLT &kp SCLN &kp BKSP 
-		&kp TAB    &kp KP_EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp NON_US_BSLH &kp LS(LBRC)  &kp LS(RBRC) &kp PIPE  &kp ENTER
+		&kp ESC  &kp ATSN   &kp LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp AMPS &kp STAR &kp SEMI &kp BKSP 
+		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp NON_US_BSLH &kp LS(LBRC)  &kp LS(RBRC) &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBRC &kp LPRN &kp RPRN &kp RBRC  &to 3 
-					    &to 0  &sk LSHIFT  					&kp RALT &to 2 
+					    &to 0  &sk LSHIFT  					&sk RALT &to 2 
 		>;
 		};
 		
@@ -97,7 +97,7 @@
 		&kp ESC  &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &trans
 		&kp TAB  &trans   &kp C_VOL_DOWN  &kp C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &kp N4  &kp N5  &kp N6   &kp ENTER
 		&trans  &trans &trans &trans &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
-					  &to 0 &kp LGUI  				&kp RALT  &to 2 
+					  &to 0 &sk LGUI  				&sk RALT  &to 2 
 		>;
 		};
 		
@@ -106,7 +106,7 @@
 		&kp NUM_1  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp NUM_5 			&trans &trans   &trans   &trans  &trans
 		&kp F1 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp F5  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&bt BT_CLR  &bt BT_NXT &bt BT_PRV &kp F6 &kp F7   				&trans &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &to 0 &trans  					&kp RALT &to 1 
+					 &to 0 &trans  					&sk RALT &to 1 
 		>;
 		};	
         
