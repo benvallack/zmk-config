@@ -45,7 +45,7 @@
 		bindings = <
 		&kp Y &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA  &kp BKSP 
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &kp A &kp O
-		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &kp SLASH &kp DOT &kp X
+		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE SLASH &td EXCL DOT &kp X
           				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&sk RCTRL &to 1
 		>;
 		};
