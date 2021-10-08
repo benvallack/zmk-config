@@ -99,7 +99,7 @@
 		&trans  &trans &trans &trans &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
 					  &to 0 &kp LGUI  				&kp RALT  &to 2 
 		>;
-		};	
+		};
 		
 		tri_layer {
 		bindings = <
