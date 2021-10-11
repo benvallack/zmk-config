@@ -51,7 +51,7 @@
 		&trans &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA  &trans
 		&kp I &kp S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &kp A &kp O
 		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &kp X
-          				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&mt BKSP RCTRL &to 1
+          				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&mt RCTRL BKSP &to 1
 		>;
 		};
 
@@ -60,7 +60,7 @@
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &trans
 		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
-					    &to 0  &kp ESC  					&mt BKSP RALT &to 2 
+					    &to 0  &kp ESC  					&mt RALT BKSP &to 2 
 		>;
 		};
 		
