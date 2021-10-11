@@ -57,7 +57,7 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp AMPS &kp STAR &kp SEMI &kp BKSP 
+		&kp ESC  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &kp BKSP 
 		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
 					    &to 0  &sk LSHIFT  					&sk RALT &to 2 
@@ -68,7 +68,7 @@
 		bindings = <
 		&kp ESC  &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &trans
 		&kp TAB  &trans   &kp C_VOL_DN  &kp C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &kp N4  &kp N5  &kp N6   &kp ENTER
-		&to 4  &trans &trans &trans &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
+		&to 4  &kp AMPS &kp SLASH &kp STAR &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
 					  &to 0 &sk LGUI  				&sk RALT  &to 2 
 		>;
 		};
@@ -76,7 +76,7 @@
 		tri_layer {
 		bindings = <
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp NUM_5 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans
-		&kp F1 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp F5  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
+		&kp F1 &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp DEL  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&td LG(GRAVE) GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &trans   				&mkp LCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &to 0 &trans  					&sk RALT &to 1 
 		>;
