@@ -78,7 +78,7 @@
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp NUM_5 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans
 		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LGUI  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&td LG(GRAVE) GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &to 0 &sk SHIFT  					&mt RALT BKSP &kp RGUI 
+					 &to 0 &sk LSHIFT  					&mt RALT BKSP &kp RGUI 
 		>;
 		};	
 		bt {
