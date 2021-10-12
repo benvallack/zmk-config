@@ -15,10 +15,6 @@
     tapping_term_ms = <200>;
 };
 
-&mmv {
-   time-to-max-speed-ms = <680>;
-   acceleration-exponent=<1>;
-};
 / { 
 
 
