@@ -34,6 +34,11 @@
 	    key-positions = <17 18>;
             bindings = <&kp RET>;
         };
+        combo_1 {
+            timeout-ms = <50>;
+	    key-positions = <31 34>;
+            bindings = <&to 1>;
+        };
     };
 
     behaviors {
@@ -62,10 +67,10 @@
                 
        		default_layer {
 		bindings = <
-		&trans &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA  &trans
-		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &hm RCTL A &hm RSHIFT O
+		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &kp U    &td MINUS 	Z  &trans
+		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hm RSHIFT O
 		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td SLASH X
-          				&mt LC(LS(LALT)) SPC &trans &trans &to 1
+          				&mt LC(LS(LALT)) SPC &trans &trans &kp E
 		>;
 		};
 
