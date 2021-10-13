@@ -19,19 +19,19 @@
 / { 
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_esc { 
             timeout-ms = <50>;
-            key-positions = <13 23>;
+            key-positions = <12 13>;
             bindings = <&kp ESC>;
         };
         combo_bksc {
             timeout-ms = <50>;
-            key-positions = <16 26>;
+            key-positions = <16 17>;
             bindings = <&kp BKSP>;
         };
         combo_ent {
             timeout-ms = <50>;
-	    key-positions = <17 27>;
+	    key-positions = <17 18>;
             bindings = <&kp RET>;
         };
     };
