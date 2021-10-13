@@ -21,17 +21,17 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <14 24>;
+            key-positions = <13 23>;
             bindings = <&kp ESC>;
         };
         combo_bksc {
             timeout-ms = <50>;
-            key-positions = <17 27>;
+            key-positions = <16 26>;
             bindings = <&kp BKSP>;
         };
         combo_ent {
             timeout-ms = <50>;
-            key-positions = <18 28>;
+	    key-positions = <17 27>;
             bindings = <&kp RET>;
         };
     };
