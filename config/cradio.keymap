@@ -21,7 +21,7 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <22 23>;
+            key-positions = <21 22>;
             bindings = <&kp ESC>;
         };
         combo_bksc {
@@ -65,7 +65,7 @@
 		&trans &kp C &kp L &kp M &kp K 						&kp Z &kp F  &kp U    &td MINUS COMMA  &trans
 		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT E &hm RCTL A &hm RSHIFT O
 		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td SLASH X
-          				&mt LC(LS(LALT)) SPC &sk LSHIFT  				&mt RCTRL BKSP &to 1
+          				&mt LC(LS(LALT)) SPC &trans &trans &to 1
 		>;
 		};
 
@@ -74,7 +74,7 @@
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &trans
 		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
-					    &to 0  &kp ESC  					&mt RALT BKSP &to 2 
+					    &to 0  &trans  					&trans &to 2 
 		>;
 		};
 		
@@ -83,7 +83,7 @@
 		&trans &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &trans
 		&kp TAB  &trans   &kp C_VOL_DN  &kp C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &kp N4  &kp N5  &kp N6   &kp ENTER
 		&to 4  &kp AMPS &kp SLASH &kp STAR &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
-					  &to 0 &mt LGUI ESC  				&mt RALT BKSP &to 2 
+					  &to 0 &trans  				&trans &to 2 
 		>;
 		};
 		
@@ -92,7 +92,7 @@
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp F10 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans
 		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LGUI  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
 		&td LG(GRAVE) GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans   
-					 &to 0 &sk LSHIFT  					&mt RALT BKSP &kp RGUI 
+					 &to 0 &trans &trans &kp RGUI 
 		>;
 		};	
 		bt {
