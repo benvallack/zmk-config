@@ -60,7 +60,7 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-	lt: layertap {
+	bl: layertap {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYERTAP";
             #binding-cells = <2>;
@@ -88,7 +88,7 @@
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &trans
 		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
-					    &lt 0 SLASH  &trans  					&trans &to 2 
+					    &bl 0 SLASH  &trans  					&trans &to 2 
 		>;
 		};
 
