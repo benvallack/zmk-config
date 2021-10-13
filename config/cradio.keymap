@@ -60,6 +60,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+	lt: layerswitch {
+            compatible = "zmk,behavior-hold-tap";
+            label = "LT";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <0>;
+            flavor = "tap-preferred";
+            bindings = <&to>, <&kp>;
+        };
     };
 
         keymap {
@@ -69,7 +78,7 @@
 		bindings = <
 		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &kp U    &td MINUS 	Z  &trans
 		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hm RSHIFT O
-		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td SLASH X
+		&kp Q &kp V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL COMMA &td X DOT
           				&mt LC(LS(LALT)) SPC &trans &trans &kp E
 		>;
 		};
@@ -79,7 +88,7 @@
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &trans
 		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp ENTER
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
-					    &to 0  &trans  					&trans &to 2 
+					    &lt 0 SLASH  &trans  					&trans &to 2 
 		>;
 		};
 
@@ -91,7 +100,7 @@
 					  &to 0 &trans  				&trans &to 2 
 		>;
 		};
-		
+
 		tri_layer {
 		bindings = <
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp F10 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans
@@ -99,7 +108,7 @@
 		&td LG(GRAVE) GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &to 0 &trans &trans &kp RGUI 
 		>;
-		};	
+		};
 		bt {
 		bindings = <
 		&trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans 
