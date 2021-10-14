@@ -76,7 +76,7 @@
                 
        		default_layer {
 		bindings = <
-		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &kp U    &td Z COMMA  &trans
+		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td Z COMMA  &trans
 		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hm RSHIFT O
 		&td LS(SLASH) Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td X MINUS
           				&mt LC(LS(LALT)) SPC &trans &trans &kp E
@@ -85,8 +85,8 @@
 
        		left_layer {
 		bindings = <
-		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &kp PRCNT		&kp CARET &kp LS(COMMA) &kp LS(DOT) &kp SEMI &trans
-		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &kp LS(SEMI)
+		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &trans		&trans &kp LS(COMMA) &kp LS(DOT) &kp CARET &trans
+		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &trans
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
 					    &to 0 &trans  					&trans &to 2 
 		>;
@@ -94,17 +94,17 @@
 
 		right_layer {
 		bindings = <
-		&trans &kp C_PP &kp C_PREV  &kp C_NEXT  &kp LS(MINUS)    			&kp MINUS  &kp N7 &kp N8 &kp N9 &trans
-		&kp TAB  &trans   &kp C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &hm RGUI N4  &kp N5  &kp N6   &kp ENTER
-		&to 4  &kp AMPS &kp SLASH &kp STAR &kp DOT    			&kp N0 &kp N1 &kp N2 &kp N3  &trans 
-					  &to 0 &trans  				&trans &to 2 
+		&trans &kp C_PP &kp C_PREV  &kp C_NEXT  &trans    			&trans  &kp N7 &kp N8 &kp N9 &trans
+		&kp TAB  &trans   &kp C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &hm RGUI N4  &kp N5  &kp N6   &kp LS(MINUS)
+		&to 4  &kp AMPS &kp SLASH &kp STAR &kp PRCNT    			&kp N0 &kp N1 &kp N2 &td DOT N3  &trans 
+					  &to 0 &trans  				&trans &kp RGUI
 		>;
 		};
 
 		tri_layer {
 		bindings = <
-		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &kp F10 			&kp LG(LBKT)   &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(RBKT) &trans
-		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LGUI  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER 
+		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &trans &trans    &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(LBKT) &trans
+		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LGUI  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp LG(RBKT)
 		&td LG(GRAVE) GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp K_VOL_DN  &trans &trans   
 					 &to 0 &trans &trans &kp RGUI 
 		>;
