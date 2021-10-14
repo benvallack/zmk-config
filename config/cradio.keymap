@@ -76,9 +76,9 @@
                 
        		default_layer {
 		bindings = <
-		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &kp U    &td MINUS 	Z  &trans
+		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &kp U    &td Z COMMA  &trans
 		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hm RSHIFT O
-		&td LS(SLASH) Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL COMMA &td X DOT
+		&td LS(SLASH) Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td X MINUS
           				&mt LC(LS(LALT)) SPC &trans &trans &kp E
 		>;
 		};
