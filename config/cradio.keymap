@@ -51,6 +51,15 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
+        hs: homerow_shifts {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_SHIFTS";
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick_tap_ms = <0>;
+            flavor = "balanced";
+            bindings = <&kp>, <&kp>;
+        };
 	td: tapdance {
             compatible = "zmk,behavior-hold-tap";
             label = "TAPDANCE";
@@ -77,7 +86,7 @@
        		default_layer {
 		bindings = <
 		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td COMMA Z  &trans
-		&hm LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hm RSHIFT O
+		&hs LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hs RSHIFT O
 		&td LS(SLASH) Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td MINUS X
           				&mt LC(LS(LALT)) SPC &trans &trans &kp E
 		>;
