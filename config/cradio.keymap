@@ -87,7 +87,7 @@
 		bindings = <
 		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td MINUS Z  &trans
 		&kp I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &kp O
-		&hs LSHIFT Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &hs RSHIFT X
+		&hs LSHIFT Q &td SLASH V &kp W &kp D &kp J				        &kp B &td QMARK H  &td UNDERSCORE Y &td EXCL DOT &hs RSHIFT X
           				&mt LC(LS(LALT)) SPC &trans &trans &td COMMA E
 		>;
 		};
