@@ -21,7 +21,7 @@
         compatible = "zmk,combos";
         combo_esc { 
             timeout-ms = <50>;
-            key-positions = <22 23>;
+            key-positions = <21 22>;
             bindings = <&kp ESC>;
         };
         combo_bksc {
@@ -85,10 +85,10 @@
                 
        		default_layer {
 		bindings = <
-		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td COMMA Z  &trans
-		&hs LSHIFT I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &hs RSHIFT O
-		&td LS(SLASH) Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &td MINUS X
-          				&mt LC(LS(LALT)) SPC &trans &trans &kp E
+		&trans &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td MINUS Z  &trans
+		&kp I &hm LCTL S &hm LALT R &hm LGUI T &kp G 			       	&kp P &hm RGUI N &hm RALT K &hm RCTL A &kp O
+		&hs LSHIFT Q &td SLASH V &kp W &kp D &kp J				        &kp B &kp H  &td UNDERSCORE Y &td EXCL DOT &hs RSHIFT X
+          				&mt LC(LS(LALT)) SPC &trans &trans &td COMMA E
 		>;
 		};
 
