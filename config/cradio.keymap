@@ -95,7 +95,7 @@
        		left_layer {
 		bindings = <
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &trans		&trans &kp LS(COMMA) &kp LS(DOT) &kp CARET &trans
-		&kp TAB    &kp EQUAL    &kp LA(RBKT)      &kp LA(LS(RBKT))     &kp SQT 		&kp BSLH &kp LBRC  &kp RBRC &kp PIPE  &trans
+		&kp TAB    &hm LCTL EQUAL    &hm LALT LA(RBKT)      &hm LGUI LA(LS(RBKT))     &kp SQT 		&kp BSLH &hm RGUI LBRC  &hm RALT RBRC &hm RSHIFT PIPE  &trans
 		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
 					    &to 0 &trans  					&trans &to 2 
 		>;
