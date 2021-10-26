@@ -41,22 +41,22 @@
         };
         combo_p {
             timeout-ms = <50>;
-	    key-positions = <7 17>;
+	    key-positions = <6 16>;
             bindings = <&kp P>;
         };
         combo_b {
             timeout-ms = <50>;
-	    key-positions = <17 27>;
+	    key-positions = <16 26>;
             bindings = <&kp B>;
         };
         combo_g {
             timeout-ms = <50>;
-	    key-positions = <4 14>;
+	    key-positions = <3 13>;
             bindings = <&kp G>;
         };
         combo_j {
             timeout-ms = <50>;
-	    key-positions = <14 24>;
+	    key-positions = <13 23>;
             bindings = <&kp J>;
         };
     };
