@@ -39,6 +39,26 @@
 	    key-positions = <30 33>;
             bindings = <&to 1>;
         };
+        combo_p {
+            timeout-ms = <50>;
+	    key-positions = <7 17>;
+            bindings = <&kp p>;
+        };
+        combo_b {
+            timeout-ms = <50>;
+	    key-positions = <17 27>;
+            bindings = <&kp b>;
+        };
+        combo_g {
+            timeout-ms = <50>;
+	    key-positions = <4 14>;
+            bindings = <&kp g>;
+        };
+        combo_j {
+            timeout-ms = <50>;
+	    key-positions = <14 24>;
+            bindings = <&kp j>;
+        };
     };
 
     behaviors {
