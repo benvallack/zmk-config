@@ -42,22 +42,22 @@
         combo_p {
             timeout-ms = <50>;
 	    key-positions = <7 17>;
-            bindings = <&kp p>;
+            bindings = <&kp P>;
         };
         combo_b {
             timeout-ms = <50>;
 	    key-positions = <17 27>;
-            bindings = <&kp b>;
+            bindings = <&kp B>;
         };
         combo_g {
             timeout-ms = <50>;
 	    key-positions = <4 14>;
-            bindings = <&kp g>;
+            bindings = <&kp G>;
         };
         combo_j {
             timeout-ms = <50>;
 	    key-positions = <14 24>;
-            bindings = <&kp j>;
+            bindings = <&kp J>;
         };
     };
 
