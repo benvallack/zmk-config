@@ -80,7 +80,7 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
         };
-        hsl: homerow_shifts {
+        hsl: homerow_shifts_layer {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_SHIFTS";
             #binding-cells = <2>;
@@ -134,7 +134,7 @@
 		bindings = <
 		&trans &kp C_PP &kp C_PREV  &kp C_NEXT  &trans    			&trans  &kp N7 &kp N8 &kp N9 &trans
 		&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &hm RGUI N4  &kp N5  &kp N6   &kp LS(MINUS)
-		&hsl LSHIFT 4  &kp AMPS &kp SLASH &kp STAR &kp PRCNT    			&kp N0 &kp N1 &kp N2 &td DOT N3  &kp MINUS
+		&hsl LSHIFT 4  &trans &kp SLASH &kp STAR &kp PRCNT    			&kp N0 &kp N1 &kp N2 &td DOT N3  &kp MINUS
 					  &to 0 &trans  				&trans &trans
 		>;
 		};
@@ -143,7 +143,7 @@
 		bindings = <
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &trans &trans    &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(LBKT) &trans
 		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LALT  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp LG(RBKT)
-		&hs LSHIFT GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp PG_UP  &kp RSHIFT &trans   
+		&kp LSHIFT &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp PG_UP  &kp RSHIFT &trans   
 					 &to 0 &trans &trans &kp RGUI 
 		>;
 		};
