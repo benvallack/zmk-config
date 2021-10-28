@@ -124,8 +124,8 @@
        		left_layer {
 		bindings = <
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &trans		&trans &kp LS(COMMA) &kp LS(DOT) &kp CARET &trans
-		&kp TAB    &hm LCTL EQUAL    &hm LALT LA(RBKT)      &hm LGUI LA(LS(RBKT))     &kp SQT 		&kp BSLH &hm RGUI LBRC  &hm RALT RBRC &hm RSHIFT PIPE  &trans
-		&kp TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &to 3 
+		&kp TAB    &hm LCTL EQUAL    &hm LALT LA(RBKT)      &hm LGUI LA(LS(RBKT))     &kp SQT 		&kp BSLH &hm RGUI LBRC  &hm RALT RBRC &kp PIPE  &kp AMPS
+		&hs LSHIFT TILDE    &kp LA(N3) 	&kp LA(LBKT) &kp LA(LS(LBKT))  &kp DQT 	&kp LBKT &kp LPRN &kp RPRN &kp RBKT  &hsl RSHIFT 3 
 					    &to 0 &trans  					&trans &to 2 
 		>;
 		};
@@ -134,7 +134,7 @@
 		bindings = <
 		&trans &kp C_PP &kp C_PREV  &kp C_NEXT  &trans    			&trans  &kp N7 &kp N8 &kp N9 &trans
 		&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &hm RGUI N4  &kp N5  &kp N6   &kp LS(MINUS)
-		&hsl LS 4  &kp AMPS &kp SLASH &kp STAR &kp PRCNT    			&kp N0 &kp N1 &kp N2 &td DOT N3  &kp MINUS
+		&hsl LSHIFT 4  &kp AMPS &kp SLASH &kp STAR &kp PRCNT    			&kp N0 &kp N1 &kp N2 &td DOT N3  &kp MINUS
 					  &to 0 &trans  				&trans &kp trans
 		>;
 		};
@@ -143,7 +143,7 @@
 		bindings = <
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &trans &trans    &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(LBKT) &trans
 		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp LALT  						&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp LG(RBKT)
-		&hs LS GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp PG_UP  &kp RSHIFT &trans   
+		&hs LSHIFT GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp DEL   				&mkp LCLK &kp PG_DN  &kp PG_UP  &kp RSHIFT &trans   
 					 &to 0 &trans &trans &kp RGUI 
 		>;
 		};
