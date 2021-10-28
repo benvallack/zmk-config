@@ -135,7 +135,7 @@
 		&trans &kp C_PP &kp C_PREV  &kp C_NEXT  &trans    			&trans  &kp N7 &kp N8 &kp N9 &trans
 		&kp TAB  &trans   &hm LALT C_VOL_DN  &hm LGUI C_VOL_UP  &kp LS(EQUAL) 			&kp EQUAL &hm RGUI N4  &kp N5  &kp N6   &kp LS(MINUS)
 		&hsl LSHIFT 4  &kp AMPS &kp SLASH &kp STAR &kp PRCNT    			&kp N0 &kp N1 &kp N2 &td DOT N3  &kp MINUS
-					  &to 0 &trans  				&trans &kp trans
+					  &to 0 &trans  				&trans &trans
 		>;
 		};
 
