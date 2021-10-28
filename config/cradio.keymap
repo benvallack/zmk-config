@@ -201,7 +201,7 @@
 		bindings = <
 		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &trans &trans    &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(LBKT) &trans
 		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans  						&trans &kp DOWN  &hm RALT UP &hm RCTL RIGHT &kp LG(RBKT)
-		&kp LSHIFT &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &trans   				&trans &td HOME PG_DN  &td END PG_UP  &kp RSHIFT &trans   
+		&kp LSHIFT &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &trans   				&trans &td HOME PG_DN  &td END PG_UP  &trans &kp RSHIFT  
 					 &to 0 &trans &trans &kp RGUI 
 		>;
 		};
