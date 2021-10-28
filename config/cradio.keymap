@@ -81,10 +81,10 @@
             bindings = <&kp BSLH>;
             layers = <1>;
         };
-        combo_rbkt {
+        combo_lbkt {
             timeout-ms = <50>;
 	    key-positions = <26 27>;
-            bindings = <&kp RBKT>;
+            bindings = <&kp LBKT>;
             layers = <1>;
         };
         combo_n0 {
