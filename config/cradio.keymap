@@ -82,7 +82,7 @@
         };
         hsl: homerow_shifts_layer {
             compatible = "zmk,behavior-hold-tap";
-            label = "HOMEROW_SHIFTS";
+            label = "HOMEROW_SHIFTS_LAYER";
             #binding-cells = <2>;
             tapping-term-ms = <150>;
             quick_tap_ms = <0>;
