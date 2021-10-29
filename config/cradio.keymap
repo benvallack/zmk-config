@@ -80,6 +80,12 @@
             bindings = <&kp comma>;
             layers = <0>;
         };
+        combo_que {
+            timeout-ms = <50>;
+	    key-positions = <28 29>;
+            bindings = <&kp comma>;
+            layers = <0>;
+        };
         combo_sqt {
             timeout-ms = <50>;
 	    key-positions = <12 13>;
