@@ -27,7 +27,7 @@
         combo_bksc {
             timeout-ms = <50>;
             key-positions = <7 8>;
-            bindings = <&kp BKSP>;
+            bindings = <&to 3>;
         };
         combo_ent {
             timeout-ms = <50>;
@@ -188,7 +188,7 @@
 		bindings = <
 		&trans  &kp ATSN   &td LC(LG(LS(N4))) LS(N3) &kp DLLR    &trans		&trans &kp LS(COMMA) &kp LS(DOT) &kp CARET &trans
 		&kp TAB    &hm LCTL EQUAL    &hm LALT LA(RBKT)      &hm LGUI LA(LS(RBKT))     &trans 		&trans &hm RGUI LBRC  &hm RALT RBRC &hm RCTL PIPE  &kp AMPS
-  		&hs LSHIFT TILDE    &kp GRAVE 	&kp LA(LBKT) &kp LA(LS(LBKT))  &to 0 	&to 2 &kp LPRN &kp RPRN &kp RBKT  &hsl RSHIFT 3 
+  		&hs LSHIFT TILDE    &kp GRAVE 	&kp LA(LBKT) &kp LA(LS(LBKT))  &to 0 	&to 2 &kp LPRN &kp RPRN &kp RBKT  &kp RSHIFT
 					    &to 0 &trans  					&trans &to 2 
 		>;
 		};
