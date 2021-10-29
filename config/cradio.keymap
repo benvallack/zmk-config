@@ -86,6 +86,12 @@
             bindings = <&kp QMARK>;
             layers = <0>;
         };
+        combo_slsh {
+            timeout-ms = <50>;
+	    key-positions = <0 1>;
+            bindings = <&kp SLASH>;
+            layers = <0>;
+        };
         combo_sqt {
             timeout-ms = <50>;
 	    key-positions = <12 13>;
@@ -197,7 +203,7 @@
 		bindings = <
 		&kp TAB &kp C &kp L &kp M &trans 						&trans &kp F  &kp U    &kp Z  &kp BKSP
 		&kp I &hm LCTL S &hm LALT R &hm LGUI T &trans 			       	&trans  &hm RGUI N &hm RALT K &hm RCTL A &kp O
-		&hs LSHIFT Q &td SLASH V &kp W &kp D &mt LC(LS(LALT)) SPC &kp E &kp H  &kp Y &td EXCL DOT &hs RSHIFT X
+		&hs LSHIFT Q &kp V &kp W &kp D &mt LC(LS(LALT)) SPC &kp E &kp H  &kp Y &td EXCL DOT &hs RSHIFT X
           				&mt LC(LS(LALT)) SPC &trans &trans &kp E
 		>;
 		};
