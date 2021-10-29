@@ -24,7 +24,7 @@
             key-positions = <21 22>;
             bindings = <&kp ESC>;
         };
-        combo_bksc {
+        combo_3 {
             timeout-ms = <50>;
             key-positions = <7 8>;
             bindings = <&to 3>;
@@ -177,7 +177,7 @@
                 
        		default_layer {
 		bindings = <
-		&kp TAB &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td MINUS Z  &BKSP
+		&kp TAB &kp C &kp L &kp M &trans 						&trans &kp F  &td SEMI U    &td MINUS Z  &kp BKSP
 		&kp I &hm LCTL S &hm LALT R &hm LGUI T &trans 			       	&trans  &hm RGUI N &hm RALT K &hm RCTL A &kp O
 		&hs LSHIFT Q &td SLASH V &kp W &kp D &mt LC(LS(LALT)) SPC &td COMMA E &td QMARK H  &td UNDERSCORE Y &td EXCL DOT &hs RSHIFT X
           				&mt LC(LS(LALT)) SPC &trans &trans &td COMMA E
