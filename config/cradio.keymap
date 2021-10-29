@@ -77,13 +77,13 @@
         combo_com {
             timeout-ms = <50>;
 	    key-positions = <20 21>;
-            bindings = <&kp comma>;
+            bindings = <&kp COMMA>;
             layers = <0>;
         };
         combo_que {
             timeout-ms = <50>;
 	    key-positions = <28 29>;
-            bindings = <&kp comma>;
+            bindings = <&kp QMARK>;
             layers = <0>;
         };
         combo_sqt {
