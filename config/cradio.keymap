@@ -80,15 +80,9 @@
             bindings = <&kp COMMA>;
             layers = <0>;
         };
-        combo_que {
-            timeout-ms = <50>;
-	    key-positions = <28 29>;
-            bindings = <&kp QMARK>;
-            layers = <0>;
-        };
         combo_slsh {
             timeout-ms = <50>;
-	    key-positions = <0 1>;
+	    key-positions = <28 29>;
             bindings = <&kp SLASH>;
             layers = <0>;
         };
