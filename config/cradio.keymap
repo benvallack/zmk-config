@@ -68,10 +68,16 @@
             bindings = <&kp B>;
             layers = <0>;
         };
+        combo_scol {
+            timeout-ms = <50>;
+	    key-positions = <8 9>;
+            bindings = <&kp SEMI>;
+            layers = <0>;
+        };
         combo_com {
             timeout-ms = <50>;
 	    key-positions = <20 21>;
-            bindings = <&kp COMMA>;
+            bindings = <&kp comma>;
             layers = <0>;
         };
         combo_sqt {
