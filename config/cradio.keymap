@@ -80,6 +80,12 @@
             bindings = <&kp COMMA>;
             layers = <0>;
         };
+        combo_minus {
+            timeout-ms = <50>;
+	    key-positions = <0 1>;
+            bindings = <&kp MINUS>;
+            layers = <0>;
+        };
         combo_slsh {
             timeout-ms = <50>;
 	    key-positions = <28 29>;
