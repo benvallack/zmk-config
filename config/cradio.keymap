@@ -45,7 +45,7 @@
             bindings = <&to 1>;
         };
         combo_g {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
 	    key-positions = <12 13>;
             bindings = <&kp G>;
             layers = <0>;
@@ -57,7 +57,7 @@
             layers = <0>;
         };
         combo_p {
-            timeout-ms = <50>;
+            timeout-ms = <25>;
 	    key-positions = <16 17>;
             bindings = <&kp P>;
             layers = <0>;
