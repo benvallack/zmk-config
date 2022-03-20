@@ -110,8 +110,8 @@
 
 		penta_layer {
 		bindings = <
-		&bt BT_PRV  &bt BT_NXT  &bt BT_CLR  &none       &none 			   &none  &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none
-		&none       &none       &mkp RCLK   &mkp LCLK   &none  		       &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none 
+		&bt BT_PRV  &bt BT_NXT  &none       &none       &none 			   &none  &mwh SCROLL_UP  &mmv MOVE_UP    &mwh SCROLL_DOWN  &none
+		&bt BT_CLR  &none       &mkp RCLK   &mkp LCLK   &none  		       &none  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none 
 		&none       &none       &none       &none       &none    		   &none  &none           &none           &none             &none   
 					                        &none       &none   		   &none  &none
 		>;
